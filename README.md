@@ -58,4 +58,4 @@ This project is under the MIT license. See the [LICENSE](https://github.com/joao
 
 ## :mailbox_with_mail: Get in touch!
 
-[LinkedIn](www.linkedin.com/in/nogueira-menna-barreto)
+[LinkedIn](https://linkedin.com/in/nogueira-menna-barreto)
