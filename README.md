@@ -50,6 +50,7 @@ yarn knex migrate:latest & npx knex migrate:latest
 # run api
 yarn dev & npm run dev
 
+```
 
 ## :page_facing_up: License
 
