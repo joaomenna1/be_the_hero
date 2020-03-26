@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-import { Link } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 import { FiArrowLeft } from 'react-icons/fi';
+
+import api from '../../services/api';
 
 import './styles.css';
 
@@ -9,6 +11,35 @@ import logoImg from '../../assets/logo.svg';
 
 
 export default function NewIncident() {
+  const [title, setTitle] = useState('');
+  const [description, setDescription] = useState('');
+  const [value, setValue] = useState('');
+
+  const history = useHistory();
+  const ongId = localStorage.getItem('ongId');
+
+  async function handleNewIncidents(e) {
+    e.preventDefault();
+
+    const data = {
+      title,
+      description,
+      value,
+    }
+
+    try {
+      await api.post('incidents', data, {
+        headers: {
+          authorization: ongId,
+        }
+      });
+
+      history.push('/profile');
+
+    } catch (err) {
+      alert('Error ao criar uma caso para sua ONG, F5 por favor');
+    }
+  }
   return (
     <div className="new-incident-container">
       <div className="content">
@@ -24,11 +55,22 @@ export default function NewIncident() {
           </Link>
         </section>
 
-        <form >
-          <input placeholder="Titulo do caso"/>
-          <textarea placeholder="descrição"/>
-          <input placeholder="whatsApp"/>
-          <input placeholder="Valor em reais"/>
+        <form onSubmit={handleNewIncidents}>
+          <input 
+            placeholder="Titulo do caso"
+            value={title}
+            onChange={e => setTitle(e.target.value)}
+          />
+          <textarea 
+            placeholder="descrição"
+            value={description}
+            onChange={e => setDescription(e.target.value)}
+          />
+          <input 
+            placeholder="Valor em reais"
+            value={value}
+            onChange={e => setValue(e.target.value)}
+            />
           
 
           <button className="button" type="submit">Cadastrar</button>
