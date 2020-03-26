@@ -5,7 +5,7 @@
 </h1>
 
 <h1 align="center">
-   FastFeet Fullstack app
+   Application fullstack
 </h1>
 
 <h4 align="center">
