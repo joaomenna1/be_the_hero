@@ -15,7 +15,7 @@
 <img alt="Last commit on GitHub" src="https://img.shields.io/github/last-commit/joaomenna1/be_the_hero?color=E02041">
 <img alt="Made by Joao nogueira" src="https://img.shields.io/badge/made%20by-joaomenna1-%20?color=E02041">
 <img alt="Project top programing language" src="https://img.shields.io/github/languages/top/joaomenna1/be_the_hero?color=E02041">
-<img alt="GitHub license" src="https://img.shields.io/github/license/joaomenna1/be_the_hero?color=E02041">
+<img alt="GitHub license" src="https://img.shields.io/github/license/joaomenna1/be_the_hero?color=7159C1">
 </p> 
 
 <p align="center">
