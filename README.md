@@ -1,11 +1,10 @@
 <h1 align="center">
   <img alt="be the Hero" src="./frontend/src/assets/logo.svg" width="200px" />
     <br>
-    Be the hero
 </h1>
 
 <h1 align="center">
-   Application fullstack
+   Application be the hero fullstack
 </h1>
 
 <h4 align="center">
