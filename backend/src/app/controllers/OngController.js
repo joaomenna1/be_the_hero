@@ -9,7 +9,7 @@ class OngController {
     const id = crypto.randomBytes(4).toString('HEX');
 
     await connection('ongs').insert({
-      id,
+      id, 
       name,
       email,
       whatsapp,
