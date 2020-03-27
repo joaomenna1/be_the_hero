@@ -1,1 +1,0 @@
-//mobile da aplicação
