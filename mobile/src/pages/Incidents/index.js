@@ -9,7 +9,6 @@ import styles from './styles';
 export default function Incidents() {
   return (
     <View style={styles.container}>
-
       <View style={styles.header}>
         <Image source={logoImg} />
         <Text style={styles.headerText}>
@@ -17,35 +16,34 @@ export default function Incidents() {
         </Text>
       </View>
 
-      <Text style={styles.title}>Bem-Vindo</Text>
-      <Text style={styles.description}>Escolha um dos casos abaixo e salve o dia</Text>
+      <Text style={styles.title}>Bem-vindo</Text>
+      <Text style={styles.desciption}>Escolha um dos casos abaixo e salve o dia</Text>
 
-    <FlatList 
-      keyExtractor={incident => String(incident)}
-      showsVerticalScrollIndicator={false}
-      style={styles.incidentList}
-      data={[1, 2, 3, 4, 5]}
-      renderItem={() => (
-        <View styles={styles.incident}>
-          <Text styles={styles.incidentProperty}>ONG:</Text>
-          <Text styles={styles.incidentValue}>APAD:</Text>
+      <FlatList 
+        data={[1, 2, 3]}
+        style={styles.incidentList}
+        keyExtractor={incident => String(incident)}
+        showsVerticalScrollIndicator= {false}
+        renderItem={()=> (
+          <View style={styles.incident}>
+          <Text style={styles.incidentProperty}>ONG:</Text>
+          <Text stye={styles.incidentValue}>APAD</Text>
 
-          <Text styles={styles.incidentProperty}>Caso</Text>
-          <Text styles={styles.incidentValue}>Betina precisa-se de comida</Text>
+          <Text style={styles.incidentProperty}>CASO:</Text>
+          <Text stye={styles.incidentValue}>betina a ladrona de comidas</Text>
 
-          <Text styles={styles.incidentProperty}>VALOR::</Text>
-          <Text styles={styles.incidentValue}>R$ 120,00</Text>
+          <Text style={styles.incidentProperty}>Valor:</Text>
+          <Text stye={styles.incidentValue}>R$ 120,00</Text>
 
           <TouchableOpacity 
-            style={styles.detailsButton}
-            onPress={() => {}}  
-          >
-            <Text style={styles.detailsButtonText}>Ver mais detalhes</Text>
-            <Feather name="arrow-right" size={16} color="#e02041" />
+            style={styles.detailsButton} 
+            onPres={() => {}} >
+              <Text style={styles.detailsButtonText}>Ver mais detalhes</Text>
+              <Feather name="arrow-right" size={16} color="#e02041" />
           </TouchableOpacity>
         </View>
-      )}
-    />
+        )}
+        />
     </View>
   );
 }

@@ -5,7 +5,7 @@ export default StyleSheet.create({
   container: {
     flex: 1,
     paddingHorizontal: 24,
-    paddingTop: Constants.statusBarHeight + 20,
+    paddingTop: Constants.statusBarHeight +  20,
   },
 
   header: {
@@ -16,7 +16,7 @@ export default StyleSheet.create({
 
   headerText: {
     fontSize: 15,
-    color: '#737380'
+    color: '#737380',
   },
 
   headerTextBold: {
@@ -34,7 +34,7 @@ export default StyleSheet.create({
   description: {
     fontSize: 16,
     lineHeight: 24,
-    color: '#737380' 
+    color: '#737380'
   },
 
   incidentList: {
@@ -42,7 +42,7 @@ export default StyleSheet.create({
   },
 
   incident: {
-    padding: 64,
+    padding: 24,
     borderRadius: 8,
     backgroundColor: '#FFF',
     marginBottom: 16,
@@ -53,12 +53,11 @@ export default StyleSheet.create({
     color: '#41414d',
     fontWeight: 'bold',
   },
-
   incidentValue: {
     marginTop: 8,
     fontSize: 15,
     marginBottom: 24,
-    color: '#737380',
+    color: '#737380'
   },
 
   detailsButton: {
@@ -71,5 +70,5 @@ export default StyleSheet.create({
     color: '#e02041',
     fontSize: 15,
     fontWeight: 'bold',
-  },
+  }
 });
