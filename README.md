@@ -4,7 +4,7 @@
 </h1>
 
 <h1 align="center">
-   Application be the hero fullstack
+   Aplication Be the Hero 
 </h1>
 
 <h4 align="center">
@@ -36,7 +36,12 @@ This project was developed with the following technologies:
 -  [sqlite3](https://sqlitebrowser.org/)
 -  [axios](https://github.com/axios/axios)
 -  [React Native](https://facebook.github.io/react-native/)
+-  [Expo](https://expo.io/learn)
+-  [Expo-Mail-Composer](https://docs.expo.io/versions/latest/sdk/mail-composer/)
 -  [React Navigation](https://reactnavigation.org/)
+-  [react-native-gesture-handler](https://software-mansion.github.io/react-native-gesture-handler/docs/getting-started.html)
+-  [Celebrate](https://www.npmjs.com/package/celebrate)
+-  [Jest](https://jestjs.io/)
 -  [VS Code](https://code.visualstudio.com/)
 
 ## :information_source: How to run
