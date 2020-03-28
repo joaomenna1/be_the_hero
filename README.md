@@ -4,7 +4,7 @@
 </h1>
 
 <h1 align="center">
-   Aplication Be the Hero 
+   Application Be the Hero 
 </h1>
 
 <h4 align="center">
