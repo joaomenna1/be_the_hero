@@ -44,6 +44,17 @@ This project was developed with the following technologies:
 -  [Jest](https://jestjs.io/)
 -  [VS Code](https://code.visualstudio.com/)
 
+## VERSION WEB
+
+<p align="center">
+  <img src="https://res.cloudinary.com/dggovyj0p/image/upload/v1586411294/bethehero_1_p7hul9.gif" >
+</p>
+
+<p align="center">
+  <img src="https://res.cloudinary.com/dggovyj0p/image/upload/v1586411293/bethehero_2_hjuqav.gif" >
+</p>
+
+
 ## :information_source: How to run
 ### Requirements
 To run the app, you will need [Git](https://git-scm.com), [Node.js](https://nodejs.org/) v12.13.1 or higher, [Yarn](https://yarnpkg.com/), [SQLite3](https://sqlitebrowser.org/).
